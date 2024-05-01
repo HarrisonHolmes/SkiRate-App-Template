@@ -1,0 +1,82 @@
+body {
+    background-color: lightgray;
+    margin: 0; /* Reset default margin */
+  /* background-image: url("images/signup.png");
+  background-size: cover;
+  background-repeat: no-repeat; */
+}
+
+#daddydiv {
+    background-color: white;
+    /* margin-left: 150px; */
+    border-radius: 25px;
+    padding: 5px;
+    border: 1px solid black;
+    width: 250px;
+    height: 74vh;
+    margin-top: 5%;
+    float: left; /* Float the form container to the left */
+}
+
+#skirate {
+    text-align: center;
+}
+
+#signup {
+    text-align: center;
+    margin-top: 30%;
+}
+
+#name,
+#email,
+#password {
+    padding-top: 10px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.colorbutton {
+    text-align: center;
+    margin-top: 15%;
+    background-color: #ffae00;
+    color: white;
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+#colorbutton {
+    text-align: center;
+}
+
+#signup::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    border-bottom: solid 2px #ffae00;
+}
+
+#signup-image {
+    width: 48%; /* Set a width for the image */
+    float: left; /* Float the image to the left */
+    margin-top: .8%; /* Adjust the margin as needed */ 
+    border-radius: 25px;
+  position: relative;
+  z-index: -1;
+  right: 10px;
+  height: 100%;
+}
+
+#signup-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}

@@ -1,0 +1,23 @@
+.loginthree {
+    text-decoration: none;
+    color: blue;
+  }
+  
+  body {
+      background-image: url("images/mainpage.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  #slopemap {
+      text-align: center;
+      background-color: orange; 
+      border-radius: 10px; 
+      width: 30%;
+      height: 3vh;
+      margin-left: 30px;
+  }
+  
+  
+     
+  
+  
